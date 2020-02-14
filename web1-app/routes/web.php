@@ -12,6 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('mohamed');
+    return view('welcome');
 });
 
+
+Route::get('/med', function () {
+    return view('mohamed');
+});
