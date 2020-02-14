@@ -16,6 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/med', function () {
-    return view('mohamed');
-});
+Route::get('/med/{name}','ahlemController@A1');
