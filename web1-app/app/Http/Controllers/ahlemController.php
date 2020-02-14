@@ -8,5 +8,8 @@ class ahlemController extends Controller
 { function A1($name){
     echo "hello".$name;
 }
+function med(){
+    return view ('mohamed');
+}
 }
 
