@@ -7,7 +7,7 @@
 
     <hr>
     @foreach($profile as $prof )
-    <li>{{$prof->nom}}</li>
+    <li>{{$prof->nom}} {{$prof->prenom}} {{$prof->email}}</li>
     @endforeach
 
 </ul>
