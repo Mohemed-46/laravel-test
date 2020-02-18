@@ -25,3 +25,7 @@ Route::get('/form','profilcontroller@formu');
 Route::post('/form/1','profilcontroller@Eng');
 Route::get('/form/liste','profilcontroller@listProfil');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
