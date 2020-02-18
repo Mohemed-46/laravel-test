@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Profile;
-class ahlemController extends Controller{
+class profilcontroller extends Controller{
 
 function formu(){
     return view ('formulair');

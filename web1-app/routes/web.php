@@ -21,5 +21,5 @@ Route::get('/med','ahlemController@med');
 
 
 
-Route::get('/form','ahlemController@formu');
-Route::post('/form/1','ahlemController@formu');
+Route::get('/form','profilcontroller@formu');
+Route::post('/form/1','profilcontroller@Eng');
