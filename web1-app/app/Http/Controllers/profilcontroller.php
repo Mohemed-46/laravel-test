@@ -16,6 +16,7 @@ function Eng(Request $request){
    
     $profile->email=$request->email;
  $profile->save();
+ return redirect('/');
 
     
 }
