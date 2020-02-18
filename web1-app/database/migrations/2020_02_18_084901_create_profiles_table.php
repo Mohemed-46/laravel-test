@@ -18,7 +18,6 @@ class CreateProfilesTable extends Migration
             $table->string('nom',50);
             $table->string('prenom',50);
             $table->string('email',100);
-
             $table->timestamps();
         });
     }
