@@ -18,3 +18,8 @@ Route::get('/', function () {
 
 Route::get('/med/{name}','ahlemController@A1');
 Route::get('/med','ahlemController@med');
+
+
+
+Route::get('/form','ahlemController@formu');
+Route::post('/form/1','ahlemController@formu');
