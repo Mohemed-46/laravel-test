@@ -20,4 +20,10 @@ function Eng(Request $request){
 
     
 }
+function listProfil(){
+    $profile=Profile::all();
+foreach ($profile as $prof) {
+    echo $prof->nom;
+}
+}
 }
