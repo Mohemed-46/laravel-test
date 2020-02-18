@@ -21,9 +21,7 @@ function Eng(Request $request){
     
 }
 function listProfil(){
-    $profile=Profile::all();
-foreach ($profile as $prof) {
-    echo $prof->nom;
-}
+    $profiles=Profile::all();
+    return view('liste')->with("profile",$profiles);
 }
 }
