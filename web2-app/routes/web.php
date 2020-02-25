@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/med/{name}','ahlemController@A1');
+Route::get('/ahlem/{name}','ahlemController@A1');
 Route::get('/med','ahlemController@med');
 
 
